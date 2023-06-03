@@ -1,0 +1,33 @@
+#question,.decide-box,#textbox{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.options-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-btn{
+    width: 185px;
+    height: 40px;
+    background-color: white;
+    margin: 10px;
+
+}
+
+.decide{
+    width: 100px;
+    height: 25px;
+}
+
+.clicked{
+    background-color: orange;
+}
+
+.hidden{
+    display: none;
+}
